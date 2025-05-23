@@ -1,8 +1,7 @@
 # Ollama Pydantic Project
 
-Welcome to the **Ollama Pydantic Project**! This project demonstrates how to use a local Ollama model with the Pydantic agent framework to create an intelligent agent. The agent is connected to an MCP server to utilize tools and provides a user-friendly interface using Streamlit.
-
-This project is part of the blog post: [Building a TypeScript MCP Server: A Guide for Integrating Existing Services](https://medium.com/@jageenshukla/building-a-typescript-mcp-server-a-guide-for-integrating-existing-services-5bde3fc13b23). Visit the blog to learn more about the concepts and implementation details behind this project.
+This project demonstrates how to use a local Ollama model with the Pydantic agent framework to create an intelligent agent.  
+The agent is connected to an MCP server to utilize tools and provides a user-friendly interface using Streamlit.
 
 ## Overview
 
@@ -12,7 +11,7 @@ The main goal of this project is to showcase:
 - **MCP Server Connection**: Enabling the agent to use tools via an MCP server.
 - **Streamlit UI**: Providing a web-based chatbot interface for user interaction.
 
-## Prerequisites
+### Prerequisites
 
 Before setting up the project, ensure the following:
 
@@ -27,7 +26,7 @@ Before setting up the project, ensure the following:
    - Ensure the server is running on `http://localhost:11434/v1`.
 3. **MCP Server**: Set up an MCP server to enable agent tools. For more details, refer to [MCP Server Sample](https://github.com/jageenshukla/hello-world-mcp-server).
 
-## Setup Instructions
+### Setup Instructions
 
 Follow these steps to set up the project:
 
@@ -104,20 +103,23 @@ ollama-pydantic-project/
 - **MCP Server Tools**: Connects to an MCP server to enhance agent capabilities.
 - **Pydantic Framework**: Ensures data validation and type safety.
 
-## Related Projects
 
-This project is closely related to another GitHub project that demonstrates how to set up an MCP server: [Hello World MCP Server](https://github.com/jageenshukla/hello-world-mcp-server). The blog post associated with that project, [Building a TypeScript MCP Server: A Guide for Integrating Existing Services](https://medium.com/@jageenshukla/building-a-typescript-mcp-server-a-guide-for-integrating-existing-services-5bde3fc13b23), provides additional context and implementation details that complement this project.
 
-## Troubleshooting
+### Troubleshooting
 
 - If you encounter issues with the Ollama server, ensure it is running on `http://localhost:11434/v1`.
 - If dependencies fail to install, ensure you are using Python 3.8 or higher and that your virtual environment is activated.
 - For MCP server-related issues, refer to the [MCP Server Sample](https://github.com/jageenshukla/hello-world-mcp-server).
 
-## License
+
+### Resources
+Jageen Shukla authored the original repo and medium articles - below:  
+
+ - Blog: [Building a TypeScript MCP Server: A Guide for Integrating Existing Services](https://medium.com/@jageenshukla/building-a-typescript-mcp-server-a-guide-for-integrating-existing-services-5bde3fc13b23). 
+ - Github: [github-ollama-pydantic](https://github.com/jageenshukla/ollama-pydantic-project) account
+
+
+### License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project as per the terms of the license. See the LICENSE file for more details.
 
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
